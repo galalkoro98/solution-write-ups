@@ -1,11 +1,10 @@
 # [userName](link-to-user)
 
-```
+`
 const addTheNumber = number =>{
   return (number *(number + 1))/2
 }
-
-```
+`
 
 ## Strategy
 
@@ -18,7 +17,8 @@ the `number` multiply by itself add by `1` divide by `2`
 
 ## Possible Refactors
 
-In this solution there is many possible way to refactor it, and we could use a `while loop` or `for loop`
+In this solution there is many possible way to refactor it, and we could use a
+`while loop` or `for loop`
 
 ## References
 

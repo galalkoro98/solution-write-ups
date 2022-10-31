@@ -21,20 +21,28 @@ By studying multiple solutions to the same challenge written by more experienced
 programmers, you will learn how to approach and solve coding challenges on your
 own.
 
-- [Getting Started](#getting-started)
-- [Exercise Platforms](#exercise-platforms)
-- [Exploring](#exploring)
-  - [Easy is Ok](#easy-is-ok)
-  - [Forfeit!](#forfeit)
-  - [Sandbox](#sandbox)
-  - [Refactoring Tests](#refactoring-tests)
-  - [Forks](#forks)
-  - [Sharing](#sharing)
-- [Write-Ups](#write-ups)
-  - [Sections](#sections)
-  - [Example](#example)
-  - [Template](#template)
-- [Helpful Links](#helpful-links)
+- [Solution Write-Ups](#solution-write-ups)
+  - [Getting Started](#getting-started)
+    - [In the Browser](#in-the-browser)
+    - [In Node.js](#in-nodejs)
+  - [Exercise Platforms](#exercise-platforms)
+    - [Edabit](#edabit)
+    - [LeetCode](#leetcode)
+    - [Codewars](#codewars)
+    - [CoderByte](#coderbyte)
+    - [Exercism](#exercism)
+  - [Exploring](#exploring)
+    - [Easy is Ok](#easy-is-ok)
+    - [Forfeit](#forfeit)
+    - [Sandbox](#sandbox)
+    - [Refactoring Tests](#refactoring-tests)
+    - [Forks](#forks)
+    - [Sharing](#sharing)
+  - [Write-Ups](#write-ups)
+    - [Write-up Files](#write-up-files)
+    - [Example](#example)
+    - [Template](#template)
+  - [Helpful Links](#helpful-links)
 
 ---
 
@@ -222,7 +230,8 @@ example to see what this might look like.
 To run the tests from different platforms in your `sandbox.test.js` file, you
 will need to refactor the test cases from whatever format they are in to use
 `describe`, `it` and `expect`. This will take some practice but will become a
-routine task. Check out the [./refactoring-tests.mp4](./example-quarter-of-the-year/refactoring-tests.mp4)
+routine task. Check out the
+[./refactoring-tests.mp4](./example-quarter-of-the-year/refactoring-tests.mp4)
 to see it live, here are the examples from the video:
 
 <details>

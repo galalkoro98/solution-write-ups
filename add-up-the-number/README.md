@@ -1,68 +1,62 @@
-# [challengeName](link-to-challenge)
-
-<!--
-  describe the function's behavior in your own words.
-  explain why someone might want to use this function
--->
+# [Add up the Numbers from a Single Number](<[link-to-challenge](https://github.com/galalkoro98/solution-write-ups/blob/master/add-up-the-number/add-number.js)>)
 
 ## Syntax
 
-> functionName(`type`, `type`, ...) -> `type`
+> functionName(`Function Declaration`, `Function Expression`) ->
+> `Arrow Function.`
 
 ### Parameters
 
-**paramName**: `paramType`
+**paramName**: `number`
 
-<!--
-  describe the parameter
--->
+A parameter is a named variable passed into a function, and used to import
+argument, which is a number in this case.
 
-### Return Value: `type`
+### Return Value: `sum of given number`
 
-<!--
-  describe the return value
--->
+When a return statement is used in a function body, the execution of the
+function is stopped. If specified, a given value is returned to the function
+caller. For example, the following function returns the sum of its argument,
+`number`, where `number` is a `4`. If the value is omitted, `10` is returned
+instead.
 
 ## Test Cases
 
-<!--
-  copy in the test cases from the original challenge
+``` const testingNumber = require('./add-number');
 
-  if you write your own test cases in a sandbox file, include those too
--->
+describe('Add up all the numbers from 1 to the number you passed to the function.', () => {
+  it('it should give the sum of given number', () => {
+    const inputNumber = 4;
+    expect(testingNumber.addTheNumber(inputNumber)).toEqual(10);
+  });
+});
+```
 
 ## Use Cases
 
-<!--
-  write a minimum of 2 use cases to show this functions behavior.
-
-  try to find interesting _edge cases_, it's good for you ;)
-  an edge case is when a function behaves different than you'd expect.
-  This will help you and others better understand the function.
-
-  https://www.geeksforgeeks.org/dont-forget-edge-cases/
--->
-
----
+``` if sum of 4 == 10
+else sum of 13 == 91
+and return value always is sum of given number in parameter
+```
 
 ## Retrospective
 
-<!--
-  write any notes to help you review this exercise later, and to help others' study it.
-
-  this might include:
-
-  - good ideas to use later in your own code
-  - less good ideas to avoid in your own code
-  - new vocabulary you learned
-  - the most important thing(s) you learned
-  - something that you still don't understand but want to keep studying
-  - something that surprised you
-  - tricks you will want to remember and use later
--->
+- It is very important that naming variable with descriptive variable name
+  about.
+- To solve a problem in `JavaScript` has many way to solved it and shortest is
+  the cleanest.
+- using strict mode `JavaScript` is good so your code work in any environment.
 
 ### Continue Doing
 
+- testing in different ways.
+- testing with different values
+- many solution possible to understand how function works.
+
 ### Start Doing
 
+- with any step using debugger to understand the steps on such solution.
+
 ### Stop Doing
+
+- declare variable name with alphabet.
